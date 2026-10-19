@@ -1,5 +1,9 @@
-# Tap-Synth-JUCE
- 
- This synth is part of the excersices from these [tutorials.](https://www.youtube.com/watch?v=kxKEFTQRZPI&list=PL7MMDOT-xbdV1BpYpqVjnT-mPFTuawVdD&index=1)
- 
-<img width="625" alt="Captura de pantalla 2023-06-02 a la(s) 12 38 04" src="https://github.com/Diegorandom/Tap-Synth-JUCE/assets/6525329/0a39902a-7e40-4917-b91e-c277febfdb9a">
+# Tap-Synth — a JUCE synthesiser
+
+A synthesiser whose parameters are driven by taps, built while working through an audio-programming tutorial series. Small on purpose: one synth voice, one editor, no abstractions.
+
+**Inside:** `Source/` (processor, editor, synth voice, sound) · `tapSynth.jucer` (Projucer project)
+
+**Build:** open `tapSynth.jucer` in Projucer and export to your IDE.
+
+**Context:** a learning project, not a product. The production work — three commercial plugins for macOS and Windows, and the licensing platform behind them — is at [Casa Occidente](https://casaoccidente.com).
